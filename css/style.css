@@ -85,7 +85,7 @@ li.site-navigation a:focus {
 }
 
 section.products {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 h2 {
@@ -142,14 +142,18 @@ li.products-list-item:hover div.products-list-name {
     background-color: #1abc9c;
 }
 
-.products-list-title h3 {
+h3.products-list-title {
     float: left;
     margin: 0;
     padding: 4px 12px;
+}
+
+.products-list-title a {
     font-size: 18px;
     line-height: 32px;
     font-weight: 900;
     text-transform: uppercase;
+    text-decoration: none;
     font-family: 'Roboto', Arial, sans-serif;
     color: #ffffff;
 
