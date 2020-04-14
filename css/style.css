@@ -85,7 +85,7 @@ li.site-navigation a:focus {
 }
 
 section.products {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 h2 {
@@ -108,7 +108,7 @@ h2::after {
 }
 
 .products h2 {
-    padding-bottom: 92px;
+    margin-bottom: 92px;
 }
 
 ul.products-list {
@@ -171,7 +171,7 @@ h3.products-list-title {
 }
 
 .news h2 {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 ul.news-list {
@@ -193,8 +193,8 @@ li.news-list-article:nth-of-type(3n) {
 }
 
 h3.news-article-title {
-    margin: 0;
-    padding: 10px 0 24px 0;
+    margin-top: 10px;
+    margin-bottom: 24px;
     font-size: 18px;
     line-height: 26px;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -217,16 +217,17 @@ p.news-article-text {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     color: #555252;
-    padding-bottom: 12px;
-    margin: 0;
+    margin: 0 0 12px 0;
 }
 
-button.news-article-button {
+a.news-article-more {
     display: block;
     width: 160px;
-    height: 50px;
-    border-radius: 3px;
-    border: 0;
+    height: 52px;
+    padding: 13px 0;
+    text-align: center;
+    /* border-radius: 3px;
+    border: 0; */
     background-color: #4ec6ab;
     cursor: pointer;
     font-size: 16px;
@@ -234,5 +235,4 @@ button.news-article-button {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 300;
     color: #ffffff;
-    padding: 0;
 }
