@@ -121,7 +121,6 @@ li.products-list-item {
     margin-right: 30px;
     list-style: none;
     width: 255px;
-    height: 322px;
     background-color: #e9f0fd;
 }
 
@@ -135,7 +134,6 @@ li.products-list-item:nth-of-type(-n+4) {
 
 div.products-list-name {
     background-color: #323232;
-    cursor: pointer;
 }
 
 li.products-list-item:hover div.products-list-name {
